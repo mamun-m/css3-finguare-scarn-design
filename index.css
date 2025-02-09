@@ -64,3 +64,126 @@ div .first {
     transform: rotate(360deg);
   }
 } */
+/* div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+  animation: first 3s linear infinite;
+}
+@keyframes first {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: -1000px;
+  }
+} */
+
+/* div {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+div .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+div .first::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: second 0.3s linear infinite;
+}
+div .first::before {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: second 0.3s linear infinite;
+}
+div .first::before {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: second 0.3s linear infinite;
+}
+div .first::before {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: second 0.3s linear infinite;
+}
+
+@keyframes second {
+  0% {
+    right: 0;
+    left: 50%;
+  }
+  50% {
+    left: 80%;
+  }
+  100% {
+    left: 100%;
+  }
+} */
+
+/* div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+div li {
+  position: relative;
+  right: 0;
+  animation: first 1s linear infinite;
+}
+@keyframes first {
+  0%,
+  50% {
+    right: 100px;
+  }
+
+  100% {
+    right: -1000px;
+  }
+} */
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-dotted {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+.content-dotted::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+} */
